@@ -1,0 +1,9 @@
+The modal's main idea is to set the display property whenever the user click the button.
+
+First we write the entire html that's needed, then we style the modal. The modal's height
+and width is set to 100%. Then the modal content is styled. The modal is the whole outside 
+region, while the card that shows up is the modal content.
+
+In the javascript file, the outsideClick function listens for a click on the entire window. 
+On a click event, it matches if the click happened over the modal(which is the entire gray area), 
+if so, the modal is closed.
